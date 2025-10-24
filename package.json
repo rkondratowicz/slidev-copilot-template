@@ -1,0 +1,35 @@
+{
+  "name": "slidev-copilot-template",
+  "version": "1.0.0",
+  "description": "A Slidev presentation template with Biome formatting",
+  "type": "module",
+  "scripts": {
+    "format": "biome format --write .",
+    "format:check": "biome format .",
+    "lint": "biome lint .",
+    "lint:fix": "biome lint --write .",
+    "check": "biome check .",
+    "check:fix": "biome check --write .",
+    "dev:example": "slidev slides/example/example.md --open",
+    "build:example": "slidev build slides/example/example.md --base /example/ --out dist/example",
+    "export:example-pdf": "slidev export slides/example/example.md --output slides/example/example.pdf",
+    "build:all": "npm run build:example",
+    "export:all": "npm run export:example-pdf"
+  },
+  "keywords": [
+    "slidev",
+    "presentation",
+    "slides",
+    "markdown",
+    "vue"
+  ],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@biomejs/biome": "^2.3.0",
+    "@slidev/cli": "^52.6.0"
+  },
+  "dependencies": {
+    "@slidev/theme-default": "^0.25.0"
+  }
+}
