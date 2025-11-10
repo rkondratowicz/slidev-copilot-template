@@ -27,7 +27,7 @@
   "license": "ISC",
   "devDependencies": {
     "@biomejs/biome": "^2.3.0",
-    "@slidev/cli": "^52.6.0"
+    "@slidev/cli": "^52.8.0"
   },
   "dependencies": {
     "@slidev/theme-default": "^0.25.0"
